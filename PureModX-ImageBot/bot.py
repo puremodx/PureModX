@@ -10,7 +10,7 @@ from typing import Any
 
 import requests
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9040833470:AAGuwQ8FQb2UI3Ttg0O-gM64R3tgaBhy044").strip()
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN is missing. Set it in your hosting environment.")
 
